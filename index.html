@@ -1,0 +1,715 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rapscallion - El Mundo de Feith Noir</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-stone-900 text-stone-100 font-sans">
+    <!-- Hero Section -->
+    <header class="relative overflow-hidden">
+      <div
+        class="absolute inset-0 bg-gradient-to-b from-black/70 to-stone-900/90 z-10"
+      ></div>
+      <img
+        src="https://images.unsplash.com/photo-1534447677768-be436bb09401?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1792&q=80"
+        alt="Steampunk City"
+        class="w-full h-[70vh] object-cover"
+      />
+      <div class="absolute inset-0 flex items-center justify-center z-20">
+        <div class="text-center px-4">
+          <h1
+            class="text-6xl md:text-8xl font-bold mb-4 text-amber-400 font-serif"
+          >
+            <span class="floating inline-block">Rapscallion</span>
+          </h1>
+          <p class="text-xl md:text-2xl max-w-3xl mx-auto text-stone-200">
+            Un mundo donde la magia y el vapor se entrelazan en una danza de
+            aventuras y secretos
+          </p>
+          <div class="mt-8 flex justify-center gap-4">
+            <button
+              class="bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-lg font-semibold transition-all"
+            >
+              <i class="fas fa-book-open mr-2"></i>Leer Ahora
+            </button>
+            <button
+              class="border-2 border-amber-400 text-amber-400 hover:bg-amber-400/10 px-6 py-3 rounded-lg font-semibold transition-all"
+            >
+              <i class="fas fa-users mr-2"></i>Personajes
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- About Section -->
+    <section class="py-16 px-4 max-w-6xl mx-auto">
+      <div
+        class="bg-stone-800/50 backdrop-blur-sm rounded-xl p-8 border-l-4 border-amber-400"
+      >
+        <h2 class="text-3xl font-bold mb-6 text-amber-400 flex items-center">
+          <i class="fas fa-globe mr-3"></i> El Mundo de Rapscallion
+        </h2>
+        <div class="grid md:grid-cols-2 gap-8">
+          <div>
+            <p class="mb-4 text-stone-300">
+              En la región de Mdir, donde las máquinas de vapor conviven con
+              antiguos rituales mágicos, una peculiar historia se desarrolla
+              entre gremios, misterios y batallas épicas.
+            </p>
+            <p class="mb-4 text-stone-300">
+              Rapscallion combina elementos de
+              <span class="text-amber-300">steampunk</span>,
+              <span class="text-purple-300">realismo mágico</span> y
+              <span class="text-blue-300">fantasía</span>, creando un universo
+              único donde lo tecnológico y lo arcano se fusionan de maneras
+              inesperadas.
+            </p>
+            <p class="mb-4 text-stone-300">
+              La historia sigue a
+              <span class="font-semibold">Feith Noir</span> y sus aliados
+              mientras navegan por los desafíos de mantener un gremio
+              funcionando, enfrentando sus propios demonios y descubriendo
+              secretos que podrían cambiar el destino de Mdir.
+            </p>
+          </div>
+          <div class="flex flex-col justify-center">
+            <div class="bg-stone-700/50 p-6 rounded-lg border border-stone-600">
+              <h3 class="text-xl font-semibold mb-3 text-amber-300">
+                <i class="fas fa-random mr-2"></i> Géneros
+              </h3>
+              <div class="flex flex-wrap gap-2">
+                <span
+                  class="bg-amber-900/50 text-amber-300 px-3 py-1 rounded-full text-sm"
+                  >Steampunk</span
+                >
+                <span
+                  class="bg-purple-900/50 text-purple-300 px-3 py-1 rounded-full text-sm"
+                  >Realismo Mágico</span
+                >
+                <span
+                  class="bg-blue-900/50 text-blue-300 px-3 py-1 rounded-full text-sm"
+                  >Fantasía</span
+                >
+                <span
+                  class="bg-green-900/50 text-green-300 px-3 py-1 rounded-full text-sm"
+                  >Slice of Life</span
+                >
+                <span
+                  class="bg-red-900/50 text-red-300 px-3 py-1 rounded-full text-sm"
+                  >Shonen</span
+                >
+                <span
+                  class="bg-yellow-900/50 text-yellow-300 px-3 py-1 rounded-full text-sm"
+                  >Aventura</span
+                >
+              </div>
+
+              <h3 class="text-xl font-semibold mt-5 mb-3 text-amber-300">
+                <i class="fas fa-bolt mr-2"></i> Temas Principales
+              </h3>
+              <ul class="space-y-2">
+                <li class="flex items-start">
+                  <i class="fas fa-caret-right text-amber-400 mt-1 mr-2"></i>
+                  <span>Amistad y trabajo en equipo</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-caret-right text-amber-400 mt-1 mr-2"></i>
+                  <span>Superación personal y crecimiento</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-caret-right text-amber-400 mt-1 mr-2"></i>
+                  <span>El equilibrio entre tecnología y magia</span>
+                </li>
+                <li class="flex items-start">
+                  <i class="fas fa-caret-right text-amber-400 mt-1 mr-2"></i>
+                  <span>Secretos del pasado y su impacto en el presente</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Characters Section -->
+    <section class="py-16 px-4 bg-stone-800/30">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center text-amber-400">
+          <i class="fas fa-users mr-3"></i>Personajes Principales
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <!-- Feith Noir -->
+          <div
+            class="character-card bg-stone-800 rounded-xl overflow-hidden shadow-lg relative"
+          >
+            <div
+              class="rank-badge bg-gradient-to-br from-gray-500 to-gray-800 text-white"
+            >
+              B
+            </div>
+            <img
+              src="https://i.imgur.com/JjZqP9a.png"
+              alt="Feith Noir"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-bold mb-1 text-amber-300">Feith Noir</h3>
+              <p class="text-sm text-stone-400 mb-3">
+                El Protagonista Silencioso
+              </p>
+
+              <div class="flex justify-between text-xs text-stone-400 mb-1">
+                <span>Humano</span>
+                <span>22 años</span>
+              </div>
+
+              <div class="mb-4">
+                <div class="flex justify-between mb-1">
+                  <span class="text-xs text-stone-400">Sigilo</span>
+                  <span class="text-xs font-bold text-amber-400">95%</span>
+                </div>
+                <div class="stat-bar bg-stone-700">
+                  <div class="stat-fill bg-green-500" style="width: 95%"></div>
+                </div>
+              </div>
+
+              <button
+                class="w-full bg-stone-700 hover:bg-stone-600 text-amber-400 py-2 rounded-lg text-sm font-semibold transition-all"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+
+          <!-- Cocoa de Mdir -->
+          <div
+            class="character-card bg-stone-800 rounded-xl overflow-hidden shadow-lg relative"
+          >
+            <div
+              class="rank-badge bg-gradient-to-br from-yellow-600 to-yellow-800 text-white"
+            >
+              A
+            </div>
+            <img
+              src="https://i.imgur.com/KLQmX9P.png"
+              alt="Cocoa de Mdir"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-bold mb-1 text-yellow-300">
+                Cocoa de Mdir
+              </h3>
+              <p class="text-sm text-stone-400 mb-3">La Princesa Gato</p>
+
+              <div class="flex justify-between text-xs text-stone-400 mb-1">
+                <span>Chica Gato</span>
+                <span>19 años</span>
+              </div>
+
+              <div class="mb-4">
+                <div class="flex justify-between mb-1">
+                  <span class="text-xs text-stone-400">Invocación</span>
+                  <span class="text-xs font-bold text-yellow-400">88%</span>
+                </div>
+                <div class="stat-bar bg-stone-700">
+                  <div class="stat-fill bg-yellow-500" style="width: 88%"></div>
+                </div>
+              </div>
+
+              <button
+                class="w-full bg-stone-700 hover:bg-stone-600 text-yellow-400 py-2 rounded-lg text-sm font-semibold transition-all"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+
+          <!-- Jenny Lee Chan -->
+          <div
+            class="character-card bg-stone-800 rounded-xl overflow-hidden shadow-lg relative"
+          >
+            <div
+              class="rank-badge bg-gradient-to-br from-red-600 to-red-800 text-white"
+            >
+              A
+            </div>
+            <img
+              src="https://i.imgur.com/NJPzB4W.png"
+              alt="Jenny Lee Chan"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-bold mb-1 text-red-300">
+                Jenny Lee Chan
+              </h3>
+              <p class="text-sm text-stone-400 mb-3">
+                La Maestra de Artes Marciales
+              </p>
+
+              <div class="flex justify-between text-xs text-stone-400 mb-1">
+                <span>Humana</span>
+                <span>25 años</span>
+              </div>
+
+              <div class="mb-4">
+                <div class="flex justify-between mb-1">
+                  <span class="text-xs text-stone-400">Fuerza</span>
+                  <span class="text-xs font-bold text-red-400">90%</span>
+                </div>
+                <div class="stat-bar bg-stone-700">
+                  <div class="stat-fill bg-red-500" style="width: 90%"></div>
+                </div>
+              </div>
+
+              <button
+                class="w-full bg-stone-700 hover:bg-stone-600 text-red-400 py-2 rounded-lg text-sm font-semibold transition-all"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+
+          <!-- Cheshire -->
+          <div
+            class="character-card bg-stone-800 rounded-xl overflow-hidden shadow-lg relative"
+          >
+            <div
+              class="rank-badge bg-gradient-to-br from-purple-600 to-purple-800 text-white"
+            >
+              S
+            </div>
+            <img
+              src="https://i.imgur.com/QWqV9bD.png"
+              alt="Cheshire"
+              class="w-full h-64 object-cover"
+            />
+            <div class="p-5">
+              <h3 class="text-xl font-bold mb-1 text-purple-300">Cheshire</h3>
+              <p class="text-sm text-stone-400 mb-3">La Invocadora Rota</p>
+
+              <div class="flex justify-between text-xs text-stone-400 mb-1">
+                <span>Humana</span>
+                <span>20 años</span>
+              </div>
+
+              <div class="mb-4">
+                <div class="flex justify-between mb-1">
+                  <span class="text-xs text-stone-400">Fuerza Bruta</span>
+                  <span class="text-xs font-bold text-purple-400">97%</span>
+                </div>
+                <div class="stat-bar bg-stone-700">
+                  <div class="stat-fill bg-purple-500" style="width: 97%"></div>
+                </div>
+              </div>
+
+              <button
+                class="w-full bg-stone-700 hover:bg-stone-600 text-purple-400 py-2 rounded-lg text-sm font-semibold transition-all"
+              >
+                Ver Detalles
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Character Details Modal (hidden by default) -->
+    <div
+      id="characterModal"
+      class="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4 hidden"
+    >
+      <div
+        class="bg-stone-800 rounded-xl max-w-4xl w-full max-h-[90vh] overflow-y-auto"
+      >
+        <div
+          class="sticky top-0 bg-stone-800 p-4 flex justify-between items-center border-b border-stone-700"
+        >
+          <h3 class="text-2xl font-bold" id="modalTitle">Personaje</h3>
+          <button id="closeModal" class="text-2xl hover:text-amber-400">
+            &times;
+          </button>
+        </div>
+
+        <div class="p-6">
+          <div class="grid md:grid-cols-3 gap-6">
+            <div class="md:col-span-1">
+              <img
+                id="modalImage"
+                src=""
+                alt="Character"
+                class="w-full rounded-lg shadow-lg"
+              />
+              <div class="mt-4 bg-stone-700/50 p-4 rounded-lg">
+                <div class="flex justify-between mb-2">
+                  <span class="text-stone-400">Rango:</span>
+                  <span id="modalRank" class="font-bold"></span>
+                </div>
+                <div class="flex justify-between mb-2">
+                  <span class="text-stone-400">Edad:</span>
+                  <span id="modalAge" class="font-bold"></span>
+                </div>
+                <div class="flex justify-between mb-2">
+                  <span class="text-stone-400">Raza:</span>
+                  <span id="modalRace" class="font-bold"></span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-stone-400">Elemento:</span>
+                  <span id="modalElement" class="font-bold"></span>
+                </div>
+              </div>
+            </div>
+
+            <div class="md:col-span-2">
+              <h4 class="text-lg font-semibold mb-2 text-amber-400">
+                Descripción
+              </h4>
+              <p id="modalDescription" class="mb-4 text-stone-300"></p>
+
+              <h4 class="text-lg font-semibold mb-2 text-amber-400">
+                Motivaciones
+              </h4>
+              <p id="modalMotivations" class="mb-4 text-stone-300"></p>
+
+              <div class="grid grid-cols-2 gap-4 mb-4">
+                <div>
+                  <h4 class="text-lg font-semibold mb-2 text-green-400">
+                    <i class="fas fa-thumbs-up mr-1"></i> Gusta
+                  </h4>
+                  <ul id="modalLikes" class="text-stone-300"></ul>
+                </div>
+                <div>
+                  <h4 class="text-lg font-semibold mb-2 text-red-400">
+                    <i class="fas fa-thumbs-down mr-1"></i> Disgusta
+                  </h4>
+                  <ul id="modalDislikes" class="text-stone-300"></ul>
+                </div>
+              </div>
+
+              <h4 class="text-lg font-semibold mb-2 text-amber-400">
+                Estadísticas
+              </h4>
+              <div id="modalStats" class="mb-4"></div>
+
+              <h4 class="text-lg font-semibold mb-2 text-amber-400">
+                Habilidades
+              </h4>
+              <div id="modalAbilities" class="mb-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Secondary Characters Section -->
+    <section class="py-16 px-4 max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-12 text-center text-amber-400">
+        <i class="fas fa-user-friends mr-3"></i>Personajes Secundarios
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Elizabeth -->
+        <div
+          class="character-card bg-stone-800 rounded-xl overflow-hidden shadow-lg relative"
+        >
+          <div
+            class="rank-badge bg-gradient-to-br from-blue-600 to-blue-800 text-white"
+          >
+            A
+          </div>
+          <img
+            src="https://i.imgur.com/mX7tQyE.png"
+            alt="Elizabeth"
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-5">
+            <h3 class="text-xl font-bold mb-1 text-blue-300">Elizabeth</h3>
+            <p class="text-sm text-stone-400 mb-3">La Rival Metódica</p>
+
+            <div class="flex justify-between text-xs text-stone-400 mb-1">
+              <span>Humana</span>
+              <span>23 años</span>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between mb-1">
+                <span class="text-xs text-stone-400">Precisión</span>
+                <span class="text-xs font-bold text-blue-400">92%</span>
+              </div>
+              <div class="stat-bar bg-stone-700">
+                <div class="stat-fill bg-blue-500" style="width: 92%"></div>
+              </div>
+            </div>
+
+            <button
+              class="w-full bg-stone-700 hover:bg-stone-600 text-blue-400 py-2 rounded-lg text-sm font-semibold transition-all"
+            >
+              Ver Detalles
+            </button>
+          </div>
+        </div>
+
+        <!-- Rapscallion -->
+        <div
+          class="character-card bg-stone-800 rounded-xl overflow-hidden shadow-lg relative"
+        >
+          <div
+            class="rank-badge bg-gradient-to-br from-gray-300 to-gray-500 text-black"
+          >
+            SS
+          </div>
+          <img
+            src="https://i.imgur.com/pwVYjXf.png"
+            alt="Rapscallion"
+            class="w-full h-64 object-cover"
+          />
+          <div class="p-5">
+            <h3 class="text-xl font-bold mb-1 text-gray-300">Rapscallion</h3>
+            <p class="text-sm text-stone-400 mb-3">
+              El Antagonista Transcendente
+            </p>
+
+            <div class="flex justify-between text-xs text-stone-400 mb-1">
+              <span>Entidad Mecánico-Orgánica</span>
+              <span>??? años</span>
+            </div>
+
+            <div class="mb-4">
+              <div class="flex justify-between mb-1">
+                <span class="text-xs text-stone-400"
+                  >Manipulación de Realidad</span
+                >
+                <span class="text-xs font-bold text-gray-400">100%</span>
+              </div>
+              <div class="stat-bar bg-stone-700">
+                <div class="stat-fill bg-gray-400" style="width: 100%"></div>
+              </div>
+            </div>
+
+            <button
+              class="w-full bg-stone-700 hover:bg-stone-600 text-gray-400 py-2 rounded-lg text-sm font-semibold transition-all"
+            >
+              Ver Detalles
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Story Arcs Section -->
+    <section class="py-16 px-4 bg-stone-800/30">
+      <div class="max-w-6xl mx-auto">
+        <h2 class="text-3xl font-bold mb-12 text-center text-amber-400">
+          <i class="fas fa-bookmark mr-3"></i>Arcos Narrativos
+        </h2>
+
+        <div class="arc-timeline">
+          <!-- Arc 1 -->
+          <div
+            class="arc-item bg-stone-800/50 p-6 rounded-lg border-l-4 border-amber-400"
+          >
+            <h3 class="text-xl font-bold mb-2 text-amber-300">
+              Arco del Gremio Renaciente
+            </h3>
+            <p class="text-sm text-amber-400 mb-3">Capítulos 1-12</p>
+            <p class="text-stone-300 mb-3">
+              Cocoa debe reunir 20 miembros para evitar que cierren su gremio.
+              Conoce a Feith Noir y otros personajes clave mientras intenta
+              reclutar miembros contra reloj.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="bg-amber-900/50 text-amber-300 px-2 py-1 rounded-full text-xs"
+                >Introducción</span
+              >
+              <span
+                class="bg-green-900/50 text-green-300 px-2 py-1 rounded-full text-xs"
+                >Desarrollo de Personajes</span
+              >
+              <span
+                class="bg-blue-900/50 text-blue-300 px-2 py-1 rounded-full text-xs"
+                >Batallas Iniciales</span
+              >
+            </div>
+          </div>
+
+          <!-- Arc 2 -->
+          <div
+            class="arc-item bg-stone-800/50 p-6 rounded-lg border-l-4 border-purple-400 mt-8"
+          >
+            <h3 class="text-xl font-bold mb-2 text-purple-300">
+              Arco del Pacto Roto
+            </h3>
+            <p class="text-sm text-purple-400 mb-3">Capítulos 13-24</p>
+            <p class="text-stone-300 mb-3">
+              Cheshire se une al grupo mientras busca a su familiar perdido. El
+              gremio descubre secretos sobre los pactos ancestrales y las
+              verdaderas intenciones de Rapscallion.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="bg-purple-900/50 text-purple-300 px-2 py-1 rounded-full text-xs"
+                >Misterio</span
+              >
+              <span
+                class="bg-red-900/50 text-red-300 px-2 py-1 rounded-full text-xs"
+                >Conflicto Interno</span
+              >
+              <span
+                class="bg-yellow-900/50 text-yellow-300 px-2 py-1 rounded-full text-xs"
+                >Revelaciones</span
+              >
+            </div>
+          </div>
+
+          <!-- Arc 3 -->
+          <div
+            class="arc-item bg-stone-800/50 p-6 rounded-lg border-l-4 border-red-400 mt-8"
+          >
+            <h3 class="text-xl font-bold mb-2 text-red-300">
+              Arco de la Reconstrucción
+            </h3>
+            <p class="text-sm text-red-400 mb-3">Capítulos 25-36</p>
+            <p class="text-stone-300 mb-3">
+              Rapscallion acelera su plan de reunir las piezas necesarias para
+              reconstruirse completamente. El gremio debe decidir si ayudarle o
+              enfrentarse a él, mientras descubren la verdad sobre el "acto
+              tabú".
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="bg-red-900/50 text-red-300 px-2 py-1 rounded-full text-xs"
+                >Clímax</span
+              >
+              <span
+                class="bg-gray-900/50 text-gray-300 px-2 py-1 rounded-full text-xs"
+                >Choque de Ideologías</span
+              >
+              <span
+                class="bg-indigo-900/50 text-indigo-300 px-2 py-1 rounded-full text-xs"
+                >Batalla Final</span
+              >
+            </div>
+          </div>
+
+          <!-- Arc 4 -->
+          <div
+            class="arc-item bg-stone-800/50 p-6 rounded-lg border-l-4 border-green-400 mt-8"
+          >
+            <h3 class="text-xl font-bold mb-2 text-green-300">
+              Arco del Nuevo Amanecer
+            </h3>
+            <p class="text-sm text-green-400 mb-3">Capítulos 37-48</p>
+            <p class="text-stone-300 mb-3">
+              Las consecuencias de las decisiones tomadas se hacen evidentes. El
+              gremio debe reconstruir no solo su reputación, sino también sus
+              relaciones internas mientras Mdir entra en una nueva era.
+            </p>
+            <div class="flex flex-wrap gap-2">
+              <span
+                class="bg-green-900/50 text-green-300 px-2 py-1 rounded-full text-xs"
+                >Epílogo</span
+              >
+              <span
+                class="bg-pink-900/50 text-pink-300 px-2 py-1 rounded-full text-xs"
+                >Relaciones</span
+              >
+              <span
+                class="bg-teal-900/50 text-teal-300 px-2 py-1 rounded-full text-xs"
+                >Futuro</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Newsletter Section -->
+    <section class="py-16 px-4 bg-gradient-to-br from-stone-800 to-stone-900">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="text-3xl font-bold mb-4 text-amber-400">
+          <i class="fas fa-envelope mr-3"></i>Mantente Actualizado
+        </h2>
+        <p class="text-xl mb-8 text-stone-300">
+          Suscríbete para recibir noticias sobre nuevos capítulos, arte
+          exclusivo y contenido detrás de escenas.
+        </p>
+
+        <form class="max-w-md mx-auto flex flex-col sm:flex-row gap-3">
+          <input
+            type="email"
+            placeholder="Tu correo electrónico"
+            class="flex-grow px-4 py-3 rounded-lg bg-stone-700 border border-stone-600 focus:outline-none focus:ring-2 focus:ring-amber-400"
+          />
+          <button
+            type="submit"
+            class="bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-lg font-semibold transition-all"
+          >
+            Suscribirse
+          </button>
+        </form>
+
+        <p class="text-sm text-stone-500 mt-4">
+          Nunca compartiremos tu correo. Puedes darte de baja en cualquier
+          momento.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-8 px-4 bg-stone-900 border-t border-stone-800">
+      <div class="max-w-6xl mx-auto">
+        <div class="flex flex-col md:flex-row justify-between items-center">
+          <div class="mb-4 md:mb-0">
+            <h2 class="text-2xl font-bold text-amber-400">Rapscallion</h2>
+            <p class="text-stone-500">Un cómic de fantasía steampunk</p>
+          </div>
+
+          <div class="flex space-x-6">
+            <a
+              href="#"
+              class="text-stone-400 hover:text-amber-400 transition-all"
+            >
+              <i class="fab fa-twitter text-xl"></i>
+            </a>
+            <a
+              href="#"
+              class="text-stone-400 hover:text-amber-400 transition-all"
+            >
+              <i class="fab fa-instagram text-xl"></i>
+            </a>
+            <a
+              href="#"
+              class="text-stone-400 hover:text-amber-400 transition-all"
+            >
+              <i class="fab fa-patreon text-xl"></i>
+            </a>
+            <a
+              href="#"
+              class="text-stone-400 hover:text-amber-400 transition-all"
+            >
+              <i class="fab fa-discord text-xl"></i>
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="border-t border-stone-800 mt-6 pt-6 text-center text-stone-500 text-sm"
+        >
+          <p>&copy; 2023 Rapscallion by Feith Noir.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
